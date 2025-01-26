@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E9BBEE0E2D462AE3005C0191 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E9BBEE0D2D462AE3005C0191 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E9BBEDEF2D4627E8005C0191 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		E9BBEDDC2D4627E7005C0191 /* Mental Modeler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mental Modeler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BBEDEE2D4627E8005C0191 /* Mental ModelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mental ModelerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BBEDF82D4627E8005C0191 /* Mental ModelerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mental ModelerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BBEE0D2D462AE3005C0191 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		E9BBEDD32D4627E7005C0191 = {
 			isa = PBXGroup;
 			children = (
+				E9BBEE0D2D462AE3005C0191 /* README.md */,
 				E9BBEDDE2D4627E7005C0191 /* Mental Modeler */,
 				E9BBEDF12D4627E8005C0191 /* Mental ModelerTests */,
 				E9BBEDFB2D4627E8005C0191 /* Mental ModelerUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BBEE0E2D462AE3005C0191 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +418,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Stormlight-Labs.Mental-Modeler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,6 +450,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Stormlight-Labs.Mental-Modeler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
